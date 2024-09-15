@@ -2,9 +2,9 @@
 include 'accessToken.php';
 include 'securitycridential.php';
 $AccountBalanceUrl = 'https://sandbox.safaricom.co.ke/mpesa/accountbalance/v1/query';
-$InitiatorName = '';
-$pass = ""; 
-$BusinessShortCode = ""; 
+$InitiatorName = 'testapi';
+$pass = "Safaricom999!*!"; 
+$BusinessShortCode = "600979"; 
 $request_data = array(
     'Initiator' => $InitiatorName,
     'SecurityCredential' => $SecurityCredential,

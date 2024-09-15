@@ -16,8 +16,8 @@ $request_data = array(
     'OriginatorConversationID' => $OriginatorConversationID,
     'PartyA' => $BusinessShortCode,
     'IdentifierType' => '4',
-    'ResultURL' => 'https://1c95-105-161-14-223.ngrok-free.app/MPEsa-Daraja-Api/ResultURL.php',
-    'QueueTimeOutURL' => 'https://1c95-105-161-14-223.ngrok-free.app/MPEsa-Daraja-Api/QueueTimeOutURL.php',
+    'ResultURL' => 'https://1a8c-105-160-85-5.ngrok-free.app/MPEsa-Daraja-Api/ResultURL.php',
+    'QueueTimeOutURL' => 'https://1a8c-105-160-85-5.ngrok-free.app/MPEsa-Daraja-Api/QueueTimeOutURL.php',
     'Remarks' => 'OK',
     'Occasion' => 'OK',
 );

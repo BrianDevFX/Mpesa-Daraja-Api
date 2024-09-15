@@ -1,9 +1,9 @@
 <?php
 include 'accessToken.php';
 $DynamicQRUrl = "https://sandbox.safaricom.co.ke/mpesa/qrcode/v1/generate";
-$MerchantName = "UMESKIA TEST PAY";
-$AccountNumber = "umeskia1234";
-$BusinessShortCode = "600997";
+$MerchantName = "Demi Pay";
+$AccountNumber = "d1234";
+$BusinessShortCode = "600979";
 $payload = array(
   'MerchantName' => $MerchantName,
   'RefNo' =>  $AccountNumber,
@@ -31,7 +31,7 @@ $resp = json_decode($response);
 $resp->QRCode;
 if (isset($resp->QRCode)) {
   $data =  $resp->QRCode;
- $qrImage = "data:image/jpeg;base64, {$resp->QRCode}";
+ echo $qrImage = "data:image/jpeg;base64, {$resp->QRCode}";
 } else {
   echo "An Error has occurred. Please try again later.";
 }
